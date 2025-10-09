@@ -14,7 +14,7 @@ export default function Portfolio() {
     // Data for projects and skills remains the same
     const projects = [
         { title: 'Bigwala School Application', description: 'A full-featured e-commerce application with real-time Student Management, secure payment integration, and admin dashboard.', tags: ['Express.Js', 'Node.js', 'MySQL', 'Prisma','React.Js',"TypeScript","TailwindCSS"] , link:"#" },
-        { title: 'CareSync Hospital Application', description: 'A full-featured hospital application with real-time patience management, Pharmacy management, and Sales Management.', tags: ['Java',"Spring boot","Flutter","ORM","MySQL"] , link:"#" },
+        { title: 'CareSync Hospital Application', description: 'A full-featured hospital application with real-time patience management, Pharmacy management, and Sales Management.', tags: ['Java',"Spring boot","Flutter","ORM","MySQL"] , link:"/caresync" },
         //{ title: 'Real-Time Chat Application', description: 'WebSocket-based chat platform with end-to-end encryption, file sharing, and presence detection.', tags: ['React', 'Socket.io', 'Express', 'Redis'] },
         //{ title: 'Project Management Dashboard', description: 'Collaborative project management tool with kanban boards, time tracking, and team analytics.', tags: ['Next.js', 'TypeScript', 'PostgreSQL', 'Prisma'] },
         { title: 'DevOps Automation Suite', description: 'CI/CD pipeline automation with infrastructure as code, automated testing, and deployment strategies.', tags: ['Jenkins', 'Terraform', 'GitHub Actions', 'Ansible'] ,link:"#" },
