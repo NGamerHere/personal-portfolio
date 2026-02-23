@@ -4,6 +4,7 @@ import {Routes,Route} from "react-router-dom";
 import CareSyncLanding from "./CareSyncLanding.jsx";
 import VisitingCard from "./VisitingCard.jsx";
 import PlanifyPage from "./PlanifyPage.jsx";
+import ArtLandingPage from "./components/ArtLandingPage.jsx";
 
 function App(){
     return <Routes>
@@ -12,6 +13,7 @@ function App(){
         <Route path="/visiting-card" element={<VisitingCard />} />
         <Route path='/caresync' element={<CareSyncLanding />} />
         <Route path="planify" element={<PlanifyPage />} />
+        <Route path="art-page" element={<ArtLandingPage />} />
     </Routes>
 }
 
