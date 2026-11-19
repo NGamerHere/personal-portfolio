@@ -1,16 +1,44 @@
-# React + Vite
+# N. Datta Sai Ram Kumar — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio for **N. Datta Sai Ram Kumar**, a software engineer focused on backend systems, APIs, databases, cloud infrastructure and full-stack product development.
 
-Currently, two official plugins are available:
+## Tech stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 19
+- Vite 7
+- Tailwind CSS 4
+- Lucide React
+- React Router
 
-## React Compiler
+## Run locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Requirements: Node.js 20.19+ or 22.12+.
 
-## Expanding the ESLint configuration
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Quality checks
+
+```bash
+npm run lint
+npm run build
+```
+
+## Featured work
+
+- [One Destiny vendor app](https://github.com/NGamerHere/OneDestinyVendorApp) · [Backend](https://github.com/NGamerHere/OneDestinyBackend)
+- [FinDeal app](https://github.com/NGamerHere/findeal-app) · [Backend](https://github.com/NGamerHere/findeal-backend)
+- [CareSync backend](https://github.com/NGamerHere/caresync-backend)
+- [Bigwala school management](https://github.com/NGamerHere/bigwala-sms)
+- [Ecom v2](https://github.com/NGamerHere/Ecom-v2)
+
+## Deployment
+
+The project includes a Vercel rewrite configuration for client-side routing. Connect this repository to Vercel and use the default Vite build settings:
+
+- Build command: `npm run build`
+- Output directory: `dist`
+
+Update social preview assets and deployment-specific metadata when the final public domain is configured.
